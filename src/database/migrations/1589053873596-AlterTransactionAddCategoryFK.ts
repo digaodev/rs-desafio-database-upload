@@ -11,7 +11,7 @@ export default class AlterTransactionAddCategoryFK1589053873596
         referencedTableName: 'categories',
         referencedColumnNames: ['id'],
         onDelete: 'SET NULL',
-        onUpdate: 'SET NULL',
+        onUpdate: 'CASCADE',
       }),
     );
   }
